@@ -1,0 +1,41 @@
+.partnership {
+    background-image: url(../assets/images/bg-partnership.jpg);
+    padding-bottom: 2rem;
+}
+
+.partnership h1,h3 {
+    font-family: 'cinzel', serif;
+    font-weight: 600;
+    color: #C07F00;
+}
+
+.partnership h3 {
+    padding-bottom: 2rem;
+}
+
+.partnership li {
+    background-color: rgba(177, 177, 177, 0.236);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    
+}
+
+.partnership a {
+    text-decoration: none;
+    color: black;
+}
+
+.partnership img {
+    border-radius: 30px;
+}
+
+.partnership a,i {
+    color: #fff;
+}
+
+.partnership a:hover {
+    color: #C07F00;
+    font-weight: 500;
+}
