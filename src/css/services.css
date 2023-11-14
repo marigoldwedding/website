@@ -1,0 +1,127 @@
+/* Services */
+
+.services {
+    padding-top: 4rem;
+    background-image: url(../assets/images/bg-partnership.jpg);
+    backdrop-filter: blur(5px);
+}
+
+.services h2 {
+    font-family: 'Cinzel',serif;
+    font-size: 1.4rem;
+    color: #C07F00;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.card {
+    backdrop-filter: blur(7px);
+    margin-top: 2rem;
+    object-fit: cover;
+    width: 20rem;
+    background-color: #ffffff3c;
+}
+
+.card-title {
+    color: #ffaa00;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+
+}
+.card-text {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+}
+
+.services .card .btn {
+    color: #fff;
+    font-weight: 500;
+    background-color: #000;
+    margin: 1rem;
+}
+
+.card .btn:hover {
+    color: #fff;
+    font-weight: 700;
+    background-color: #916000;
+}
+
+.card .sosmed {
+  color: #fff;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.card .sosmed:hover {
+  color: #C07F00;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Media Mobile */
+
+@media (max-width: 575.98px) { 
+
+    .services {
+    font-size: 2rem;
+    color: #C07F00;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    }
+    
+    .card {
+        margin-top: 2rem;
+        object-fit: cover;
+        width: 12rem;
+    }
+    
+    .card-title {
+        font-size: 10px;
+        font-weight: 500;
+        color: #ffaa00;
+    }
+    .card-text {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .services .card .btn {
+        color: #fff;
+        font-weight: 500;
+        background-color: #000;
+        font-size: 10px;
+    }
+    
+    .card .btn:hover {
+        color: #fff;
+        font-weight: 700;
+        background-color: #916000;
+    }
+    
+    .card .sosmed {
+      color: #fff;
+      padding-bottom: 1rem;
+      font-size: 1rem;
+      text-decoration: none;
+      font-size: 10px;
+    }
+    
+    .card .sosmed:hover {
+      color: #fff;
+      padding-bottom: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 10px;
+    }
+ }

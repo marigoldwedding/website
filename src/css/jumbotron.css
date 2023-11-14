@@ -1,0 +1,18 @@
+
+.jumbotron {
+    padding-top: 5rem;
+    background-image: url(../assets/images/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+/* Media Mobile */
+@media (max-width: 575.98px) { 
+.jumbotron {
+    background-image: url(../assets/images/mobilebanner.jpg);
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+ }
+}
