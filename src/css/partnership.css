@@ -5,6 +5,7 @@
 .partnership {
     background-image: url(../assets/images/bg-partnership.jpg);
     padding-top: 4rem;
+    position: relative;
 }
 
 .partnership h1,h2 {
