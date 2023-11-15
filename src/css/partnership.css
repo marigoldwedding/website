@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .partnership {
     background-image: url(../assets/images/bg-partnership.jpg);
     padding-top: 4rem;
