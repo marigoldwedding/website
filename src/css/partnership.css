@@ -1,0 +1,39 @@
+.partnership {
+    background-image: url(../assets/images/bg-partnership.jpg);
+}
+
+.partnership h1{
+    font-family: 'cinzel', serif;
+    color: #C07F00;
+}
+
+.partnership .para {
+    font-family: 'cinzel', serif;
+    color: #C07F00;
+}
+
+.cardp {
+    backdrop-filter: blur(7px);
+    margin-top: 2rem;
+    object-fit: cover;
+    background-color: #ffffff3c;
+    border-radius: 20px;
+}
+
+.cardp-title {
+    font-family: 'poppins', sans-serif;
+    padding-top: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.cardp-text {
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.cardp-img-top {
+    border-radius: 20px;
+}
