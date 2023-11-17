@@ -1,13 +1,13 @@
-/* catering */
+/* mua */
 
-.catering {
+.mua {
     padding-top: 4rem;
     background-image: url(../assets/images/bg-partnership.jpg);
     backdrop-filter: blur(5px);
     padding-bottom: 2rem;
 }
 
-.catering h2 {
+.mua h2 {
     font-family: 'Cinzel',serif;
     font-size: 2rem;
     color: #C07F00;
@@ -15,13 +15,13 @@
     padding-bottom: 2rem;
 }
 
-.card-img-catering {
+.card-img-mua {
   width: 100%;
 
   border-radius: 30px;
 }
 
-.card-catering {
+.card-mua {
     backdrop-filter: blur(7px);
     margin-top: 2rem;
     object-fit: cover;
@@ -30,7 +30,7 @@
     border-radius: 30px;
 }
 
-.card-catering-title {
+.card-mua-title {
     color: #ffffff;
     font-weight: 500;
     font-family: 'poppins', sans-serif;
@@ -38,14 +38,14 @@
 
 }
 
-.catering .card-catering .btn {
+.mua .card-mua .btn {
     color: #fff;
     font-weight: 500;
     background-color: #000;
     margin: 1rem;
 }
 
-.card-catering .btn:hover {
+.card-mua .btn:hover {
     color: #fff;
     font-weight: 700;
     background-color: #916000;
@@ -56,7 +56,7 @@
 
 @media (max-width: 575.98px) { 
 
-    .catering {
+    .mua {
     font-size: 2rem;
     color: #C07F00;
     font-weight: 500;
@@ -64,30 +64,30 @@
     padding-top: 2rem;
     }
     
-    .card-catering {
+    .card-mua {
         margin-top: 2rem;
         object-fit: cover;
         width: 12rem;
     }
     
-    .card-catering-title {
+    .card-mua-title {
         font-size: 14px;
         font-weight: 500;
         color: #fff;
     }
-    .card-catering-text {
+    .card-mua-text {
         font-size: 10px;
         font-weight: 400;
     }
     
-    .catering .card-catering .btn {
+    .mua .card-mua .btn {
         color: #fff;
         font-weight: 500;
         background-color: #000;
         font-size: 10px;
     }
     
-    .card-catering .btn:hover {
+    .card-mua .btn:hover {
         color: #fff;
         font-weight: 700;
         background-color: #916000;
