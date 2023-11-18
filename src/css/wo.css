@@ -1,0 +1,95 @@
+/* wo */
+
+.wo {
+    padding-top: 4rem;
+    background-image: url(../assets/images/bg-partnership.jpg);
+    backdrop-filter: blur(5px);
+    padding-bottom: 2rem;
+}
+
+.wo h1 {
+    font-family: 'Cinzel',serif;
+    font-size: 2rem;
+    color: #C07F00;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.card-wo-img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.card-wo {
+    backdrop-filter: blur(7px);
+    margin-top: 2rem;
+    object-fit: cover;
+    width: 20rem;
+    background-color: #ffffff3c;
+    border-radius: 30px;
+}
+
+.card-wo-title {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    padding-top: 1rem;
+
+}
+
+.wo .card-wo .btn {
+    color: #fff;
+    font-weight: 500;
+    background-color: #000;
+    margin: 1rem;
+}
+
+.card-wo .btn:hover {
+    color: #fff;
+    font-weight: 700;
+    background-color: #916000;
+}
+
+
+/* Media Mobile */
+
+@media (max-width: 575.98px) { 
+
+    .wo {
+    font-size: 2rem;
+    color: #C07F00;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    }
+    
+    .card-wo {
+        margin-top: 2rem;
+        object-fit: cover;
+   
+    }
+    
+    .card-wo-title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .card-wo-text {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .wo .card-wo .btn {
+        color: #fff;
+        font-weight: 500;
+        background-color: #000000;
+        font-size: 18px;
+    }
+    
+    .card-wo .btn:hover {
+        color: #fff;
+        font-weight: 700;
+        background-color: #916000;
+    }
+    
+ }
