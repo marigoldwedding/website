@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="src/css/wo.css">
     <link rel="stylesheet" href="src/css/decoration.css">
     <link rel="stylesheet" href="src/css/photo.css">
+    <link rel="stylesheet" href="src/css/dropdown.css">
+    <link rel="stylesheet" href="src/css/alert.css">
+    <link rel="stylesheet" href="src/css/location.css">
+    <link rel="stylesheet" href="src/css/footer.css">
 
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
@@ -53,7 +57,20 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#partnership">Partnership</a>
+              <a class="nav-link dropdown-toggle" href="#partnership" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Partnership
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#partnership">Master of Ceremony</a></li>
+                <li><a class="dropdown-item" href="#catering">Catering</a></li>
+                <li><a class="dropdown-item" href="#mua">Make Up</a></li>
+                <li><a class="dropdown-item" href="#attire">Attire</a></li>
+                <li><a class="dropdown-item" href="#wo">Wedding Organizer</a></li>
+                <li><a class="dropdown-item" href="#decoration">Decoration</a></li>
+                <li><a class="dropdown-item" href="#seserahan">Seserahan</a></li>
+                <li><a class="dropdown-item" href="#photo">Photo & Video</a></li>
+                <li><a class="dropdown-item" href="#music">Music Entertainment</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -487,7 +504,7 @@
 </section>
 
 <!-- Seserahan -->
-<section class="decoration text-center mx-auto d-flex align-item-center justify-content-center" id="decoration">
+<section class="decoration text-center mx-auto d-flex align-item-center justify-content-center" id="seserahan">
   <div class="container">
     <h1 class="text-center display-3 font-weight-bold">
      seserahan
@@ -572,7 +589,7 @@
 <!-- Akhir Photo Video -->
 
 <!-- Music  -->
-<section id="photo" class="photo">
+<section id="music" class="photo">
   <div class="container">
   <h2 class="heading-photo text-center" data-aos="fade-up" data-aos-duration="900">Music Entertainment</h2>
   <div class="row text-center justify-content-center">
@@ -652,7 +669,34 @@
   </div>
 </section>
 
+<!-- ALERT -->
+<section id="ask" class="ask text-center mx-auto">
+  <div class="container">
+    <p class="sub-head">Belum menemukan apa yang kamu cari couples ? </p>
+    <h1 class="head-alert">Hubungi Kami Untuk Penawaran Istimewa !</h1>
+    <p class="sub-text">Marigold siap merancang event sesuai dengan prefensi kamu</p>
+    <a href="https://wa.me/6285218723544" class="btn shadow"> Klik Disini</a>
+  </div>
 
+</section>
+
+<!-- Location -->
+<section id="location" class="location mx-auto text-center">
+  <div class="container">
+    <h1>Our Location</h1>
+    <p>Jl. Pajajaran 1, Babakan, Kec. Cisaat, Kabupaten Sukabumi, Jawa Barat 43152</p>
+      <iframe class="maps shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6832851210315!2d106.89747847499662!3d-6.928408393071384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6837c54ed6e4cb%3A0x13197d8b7fe0d9bd!2sMarigold%20wedding!5e0!3m2!1sid!2sid!4v1700358214577!5m2!1sid!2sid" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <a href="https://maps.app.goo.gl/AzAJzGYUGEfiRuQS8" class="btn shadow"> Lihat Lokasi</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container mx-auto">
+    <img src="src/assets/images/Nav-Logo.png" alt="logo-footer" class="footer-img mx-auto d-flex align-item-center">
+    <p class="text-center">Created By <a href="">Ilham Tri Maulana | Copyright 2023</a>
+  </div>
+</footer>
 
 
 
@@ -661,6 +705,8 @@
 
 <!-- MY JS -->
 <script src="src/js/navbar.js"></script>
+
+
 
 
 <!-- jQuery -->

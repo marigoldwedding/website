@@ -1,0 +1,14 @@
+footer {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-img {
+    width: 150px;
+}
+
+footer p,a {
+    color: #fff;
+    text-decoration: none;
+}

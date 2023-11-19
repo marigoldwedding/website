@@ -1,0 +1,40 @@
+.ask {
+    background-image: url(../assets/images/bg-partnership.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.sub-head {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.head-alert {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #df9500;
+}
+
+.sub-text {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.ask a {
+    color: #fff;
+    background-color: #C07F00;
+    border-radius: 50px;
+    font-weight: 700px;
+}
+
+.ask a:hover {
+    color: #fff;
+    background-color: #ffaa00;
+    border-radius: 50px;
+    font-weight: 700px;
+}
