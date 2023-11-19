@@ -1,7 +1,7 @@
 /* Photo */
 
 .photo {
-    padding-top: 4rem;
+    padding-top: 6rem;
     background-image: url(../assets/images/bg-partnership.jpg);
     backdrop-filter: blur(5px);
     padding-bottom: 2rem;
@@ -59,7 +59,7 @@
     color: #C07F00;
     font-weight: 500;
     padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-top: 6rem;
     }
     
     .card-photo {
